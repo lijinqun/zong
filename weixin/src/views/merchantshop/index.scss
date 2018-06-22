@@ -1,0 +1,215 @@
+.myshop {
+  background-color: #ccc;
+  > .top-title{
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        background-color: #332c2b;
+        color: #d9ba4f;
+        line-height: 40px;
+        z-index: 99;
+      > .van-icon{
+          position: absolute;
+          top: 10px;
+          left: 15px;
+          color: #DB9F3D;
+          width: 15px;
+          height: 15px;
+      }
+      > span{
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+        width: 80%;
+      }
+    }
+  > .img-box {
+    // overflow: hidden;
+    height: 200px;
+    padding-top: 40px;
+    > img {
+      width: 100%;
+      height:100%;
+      object-fit:cover;
+    }
+  }
+  > .title {
+    padding: .5rem 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    > p {
+      margin: 5px 0;
+      font-size: 1rem;
+    }
+    > .star {
+      font-size: .8rem;
+      > img {
+        width: 14px;
+      }
+    }
+  }
+  > .address {
+    display: flex;
+    padding: .5rem;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #fff;
+    > .icon {
+      padding: 0 .5rem;
+      vertical-align: middle;
+      text-align: center;
+      > img {
+        margin-top: 5px;
+        width: 16px;
+      }
+    }
+    > .info {
+      flex: 1;
+      > p {
+        margin-top: 5px;
+        font-size: .8rem;
+      }
+    }
+    > .phone {
+      padding: 0 .5rem;
+      vertical-align: middle;
+      text-align: center;
+      border-left: 1px solid #dfdfdf;
+      > img {
+        width: 20px;
+        margin-top: 5px;
+      }
+    }
+  }
+  > .pay-box {
+    padding: .5rem 1rem;
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    > .des {
+      flex: 2;
+      > .title {
+        margin: 5px 0;
+      }
+      > .other {
+        font-size: .7rem;
+        color: #ccc;
+        > span:first-child {
+          color: #e0bf63
+        }
+      }
+    }
+    > .right {
+      flex: 1;
+      text-align: right;
+      > span {
+        display: inline-block;
+        padding: .3rem .6rem;
+        background-color: #e0bf63;
+        font-size: .8rem;
+        color: #fff;
+      }
+      > p {
+        margin-top: 5px;
+        font-size: .8rem;
+        color: #ccc;
+      }
+    }
+  }
+  > .shopUserInfo {
+    padding: .5rem 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    > p:first-child {
+      font-size: 1.1rem;
+      margin: 5px 0;
+    }
+    > .des {
+      color: #ccc;
+      font-size: .8rem;
+    }
+  }
+  > .page {
+    padding: 0 1rem;
+    background-color: #fff;
+    > .title {
+      padding: 5px 0;
+    }
+    > ul {
+      > li {
+        padding: .5rem 0;
+        display: flex;
+        border-bottom: 1px solid #dfdfdf;
+        > img {
+          margin: 0 .5rem;
+          width: 80px;
+          height: 80px;
+        }
+        > .content {
+          flex: 1;
+          overflow: hidden;
+          > .title {
+            font-size: .8rem;
+          }
+          > .des, .data {
+            margin: 5px 0;
+            font-size: .6rem;
+            color: #ccc;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+          > .price {
+            margin: 5px 0;
+            font-size: .6rem;
+            > .new {
+              color: #e0bf63;
+            }
+            > .discount {
+              padding: 0 .2rem;
+              border: 1px solid #e0bf63;
+              color: #e0bf63;
+              border-radius: 3px;
+            }
+            > .sell {
+              color: #ccc;
+              float: right;
+            }
+          }
+        }
+      }
+    }
+  }
+  > .consumption{
+    margin-top:5px;
+    background: #ffffff;
+    padding: 0 24px;
+    height: 60px;
+    line-height: 60px;
+    > span{
+      float: left;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    > a{
+      float: right;
+      display: block;
+      height: 29px;
+      font-size: 14px;
+      color: #ffffff;
+      width: 90px;
+      text-align: center;
+      line-height: 29px;
+      background: #DDBF63;
+      position: relative;
+      top: 15px;
+
+    }
+  }
+}
+.goodsdataheight{
+  height: 430px;
+  overflow: hidden;
+  background-color: #fff;
+}

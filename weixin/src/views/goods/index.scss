@@ -1,0 +1,215 @@
+.top-title {
+  position: fixed !important;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: #332c2b;
+  color: #d9ba4f;
+  line-height: 40px;
+  z-index: 150;
+  > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  .edit {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #d9ba4f;
+  }
+}
+
+
+.empty {
+  text-align: center;
+  padding: 1rem 0;
+  .img-box {
+    margin-bottom: 30px;
+    text-align: center;
+    img {
+      width: 40%;
+    }
+  }
+  p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .gray {
+    color: #999;
+  }
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  .find {
+    padding: 2px 5px;
+    border: 1px #999 solid;
+    border-radius: 5px;
+  }
+}
+
+.card-goods {
+  padding: 10px 0;
+  background-color: #fff;
+  &__item {
+    position: relative;
+    padding: 0 10px;
+    background-color: #fafafa;
+    .van-checkbox__input {
+      top: 50%;
+      left: 15px;
+      margin-top: -10px;
+      position: absolute;
+    }
+    .van-checkbox__label {
+      margin: 0;
+      width: 100%;
+      padding-left: 35px;
+      box-sizing: border-box;
+    }
+    .van-card__price {
+      color: #f44;
+    }
+  }
+}
+
+
+.content{
+  // padding: 40px 0 0px;
+  background: #f0f0f0;
+  // height: 450px;
+}
+
+.fixed{
+  position: fixed;
+  top:0;
+  width:100%;
+  background:#ffffff;
+  z-index:100;
+}
+.lright{
+    display: block;
+    width: calc(100% - 10px);
+    // border-left: 1px solid #ccc;
+    height: 100%;
+    padding-bottom: 90px;
+    margin: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 84px;
+    li{
+      position: relative;
+      background: #fff;
+      width: calc(50% - 5px);
+      display: inline-block;
+      background-color: white;
+      text-align: left;
+      padding: 0 0 0.5rem;
+      border: 1px solid #f0f0f0;
+      vertical-align: middle;
+      border-radius: 8px;
+      // margin-bottom: 0.5rem;
+      // margin-left: 3%;
+      margin-top: 5px;
+      .lrightbigimg[lazy=loaded]{
+        animation-name: fadein;
+        animation-duration: .7s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        animation-direction: normal;
+        animation-timing-function: ease-out;
+        @keyframes fadein {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+      }
+      .lrightbigimg{
+        display: block;
+        width: 100%;
+        height: 160px;
+        margin: auto;
+      }
+      .mdzz{
+        width:calc(100% - 16px);
+        font-size: 13px;
+        color: #000000;
+        margin: 0.3rem auto 0.5rem;
+        height: 2.3rem;
+        padding: 0 8px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+      }
+      .numbersize{
+          position: relative;
+          font-size: 14px;
+          font-weight: 600;
+          color: rgb(234, 82, 31);
+          margin: 0.2rem 6px 0px;
+          .gwcimg {
+            width: 1.3rem;
+            position: absolute;
+            top: 0;
+            right: 0.5rem;
+            vertical-align: middle;
+        }
+      }
+      .shopbtn{
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+        padding:  4px 10px;
+        // border: 1px solid #ccc;
+        background: #d9ba4f;
+        color: #fff;
+        font-size: 13px;
+      }
+      .nonestock{
+        width: 4.4rem;
+        height: 4.4rem;
+        margin-top: 0.5rem;
+        position: absolute;
+        // top: 0.5rem;
+        left: 1rem;
+        right: 0;
+        // margin: auto;
+        text-align: center;
+        background: rgba(0,0,0,0.1);
+      }
+      
+    }
+    li:nth-child(1),li:nth-child(2){
+      border-top: 1px solid #f0f0f0;
+    }
+    li:nth-child(2n){
+      margin-left: 5px;
+    }
+  }
+
+
+  .posfixed{
+    z-index:0;
+    margin-top: 40px;
+    > .navbar-item{
+      position: fixed;
+      top:40px;
+      left: 0;
+    }
+
+  }
+
+  .van-tabs__nav-bar{
+    background-color: #d9ba4f;
+  }
+  .van-tabs .van-tab--active{
+    color: #d9ba4f;
+  }

@@ -1,0 +1,55 @@
+.sweep-history {
+    > .top-title {
+        position: relative;
+        height: 40px;
+        text-align: center;
+        background-color: #332c2b;
+        color: #e0bf63;
+        line-height: 40px;
+        > .back-off {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50px;
+          height: 40px;
+          color: #e0bf63;
+        }
+    }
+    > ul {
+        padding-bottom: 2rem;
+        > li {
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            padding: .5rem .8rem;
+            color: #333;
+            > .img {
+                flex: 1;
+                margin-right: .5rem;
+                > img {
+                    width: 100%;
+                }
+            }
+            > .info {
+                flex: 4;
+                > p {
+                    > .b {
+                        font-weight: 500;
+                    }
+                    > .time {
+                        float: right;
+                        font-size: .8rem;
+                        color: #ddd;
+                    }
+                    > .floatright{
+                        float: right;
+                        font-size: .8rem;
+                    } 
+                    line-height: 30px;
+                }
+            }
+        }
+        // > li + li {
+        //     border-bottom: 1px solid #ddd
+        // }
+    }
+}

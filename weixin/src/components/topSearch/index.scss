@@ -1,0 +1,66 @@
+$fontColor: #d9ba4f;
+.top-search {
+  width: 100%;
+  height: 40px;
+  color: $fontColor;
+  background-color: #000000;
+  .location {
+    line-height: 40px;
+    font-size: .8rem;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    >.leftimgcss{
+        width: 0.6rem;
+        position: absolute;
+        top: 14px;
+        left: 13px;
+      }
+      >.rightimgcss{
+        width: 0.7rem;
+        // position: absolute;
+        // top: 18px;
+        // left: 70px;
+        // vertical-align: middle;
+      }
+      .city{
+        padding-left: 26px;
+        
+        // display: inline-block;
+        // vertical-align: middle;
+      }
+  }
+  .search-box {
+    position: relative;
+    margin: 2px auto;
+    padding-top: 4px;
+    >.icon {
+      position: absolute;
+      top: 12px;
+      right: 5px;
+    }
+    >input {
+      width: 100%;
+      height: 24px;
+      line-height: 24px;
+      background-color: #5f5d5d;
+      font-size: .8rem;
+      text-indent: 12px;
+      color: #ddd;
+      border: none;
+      border-radius: 15px;
+      outline: none;
+    }
+  }
+}
+
+
+  .citycss{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+  }

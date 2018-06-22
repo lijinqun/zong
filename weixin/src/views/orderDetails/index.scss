@@ -1,0 +1,171 @@
+.order-list {
+  padding-bottom: 70px;
+  -webkit-overflow-scrolling: touch;
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  .info {
+        display: flex;
+        padding: 0.4rem 1rem; 
+        background-color: #fff;
+        border-bottom: 1px solid #f0f0f0;
+        -webkit-overflow-scrolling: touch;
+        > .img {
+          flex: 1;
+          padding: 0 .5rem 0 0;
+          width: 70px;
+          height: 70px;
+          > img {
+            height: 70px;
+            width: 70px;
+            display: block;
+          }
+        }
+        > .rightinfo{
+           flex: 3;
+           position: relative;
+          // > p {
+          //   display: block;
+          //   padding: 0.1rem 0;
+          //   color: #000;
+          //   font-size: 14px;
+          //   width: 11rem;
+          //   display: -webkit-box;
+          //    /*! autoprefixer: off */
+          //   -webkit-box-orient: vertical;
+          //   /* autoprefixer: on */
+          //   -webkit-line-clamp: 2;
+          //   overflow: hidden;
+          // }
+          .nametxt{
+            padding: 0.1rem 0;
+            color: #000;
+            font-size: 12px;
+            width: 11rem;
+            display: -webkit-box;
+            /*! autoprefixer: off */
+            -webkit-box-orient: vertical;
+            /* autoprefixer: on */
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+          .smalltxt{
+            font-size: 12px;
+            color: #999;
+          }
+          > .redprice{
+            color: #ff0000;
+            font-size: 13px;
+          }
+          > .inbottom{
+            position: absolute;
+            bottom: 5px;
+            right: 2px;
+            width: 2rem;
+          }
+          .speccss{
+            max-width:85%; 
+            font-size: 12px;
+            color: #999;
+            position: absolute;
+            bottom: 5px;
+            left: 2px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+          > .pricebox{
+            position: absolute;
+            right: 0px;
+            top: 1px;
+            font-size: 13px;
+          }
+        }
+        > .price {
+          flex: 1;
+          font-size: .8rem;
+          text-align: right;
+        }
+      }
+
+
+  .orderdata{
+    border-top: 5px solid #f0f0f0;
+    -webkit-overflow-scrolling: touch;
+    > li{
+      display: flex;
+      padding: 0.8rem 5%;
+      border-bottom: 1px solid #f0f0f0;
+      > p.pblock{
+        font-size: 0.8rem;
+        display: block;
+      }
+      > p.pheader{
+        font-size: 0.8rem;
+        margin-bottom: 0.3rem;
+      }
+      > p.left{
+        flex:1;
+        font-size: 0.8rem;
+      }
+      > p.right{
+        flex:3;
+        text-align: right;
+        font-size: 0.8rem;
+      }
+      .redtxt{
+        color: #f54242;
+      }
+      > p.disblock{
+        display: block;
+        flex:none;
+      }
+      > .disflex{
+        display: flex;
+        > p.left{
+          flex:1;
+          font-size: 0.8rem;
+        }
+        > p.right{
+          flex:3;
+          text-align: right;
+          font-size: 0.8rem;
+        }
+        .redtxt{
+          color: #f54242;
+        }
+      }
+    }
+    > li.disblock{
+      display: block;
+    }
+    > li.noneborder{
+      border: none;
+    }
+  }
+  .clickbtn{
+    width: 80%;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    background: #ff0000;
+    color: #fff;
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 2rem;
+  }
+}
+

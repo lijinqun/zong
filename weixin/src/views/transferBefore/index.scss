@@ -1,0 +1,130 @@
+.transfer-before {
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  > .content {
+    > .memberNo-input {
+      display: flex;
+      padding: .5rem;
+      background-color: #ddd;
+      > input {
+        flex: 1;
+        margin: 0 .5rem;
+        padding: 0 .5rem;
+        border-radius: .5rem;
+        border: none;
+      }
+      > span {
+        padding: .5rem 1rem;
+        background-color: green;
+        color: #fff;
+        border-radius: .5rem;
+      }
+    }
+    > ul {
+      border-bottom: 1px solid #ccc;
+      > li {
+        > a {
+          color: #333;
+          display: flex;
+          > .img-box {
+            width: 60px;
+            padding: 10px;
+            > img {
+              width: 100%;
+              display: block;
+            }
+          }
+          > .text {
+            width: 100%;
+            line-height: 60px;
+            font-size: 1.2rem;
+          }
+        }
+      }
+      > li + li {
+        > a  > .text {
+          border-top: 1px solid #ccc;
+        }
+      }
+    }
+  }
+}
+
+.lately{
+  background: #ddd;
+  height: 26px;
+  line-height: 26px;
+  padding-left: 0.5rem;
+  color: #666;
+}
+
+.recordul{
+        padding-bottom: 2rem;
+        > li {
+            border-bottom: 1px solid #ddd;
+            padding: .5rem .2rem;
+            color: #333;
+            .libox {
+                line-height: 30px;
+                font-size: .8rem;
+                padding: 0 0.5rem;
+                >.txtleft{
+                  text-align: left;
+                  color: #777;
+                  display: inline-block;
+                  line-height: 28px;
+                  img{
+                    width: 23px;
+                    height: 23px;
+                    vertical-align: middle;
+                    border-radius: 50%;
+                  }
+                  span{
+                    vertical-align: middle;
+                    padding-left: 5px;
+                  }
+                  p{
+                    display: inline-block;
+                  }
+                }
+                >.txtright{
+                  text-align: right;
+                  float: right;
+                  color: #f44;
+                  display: inline-block;
+                  > .time {
+                        font-size: .8rem;
+                        color: #999;
+                    }
+                }
+              }
+        }
+    }
+.hidetab{
+  height: 500px;
+  overflow: hidden;
+}
+.overheight{
+  overflow: auto;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nonelist{
+    text-align: center;
+    padding-top: 3rem;
+}

@@ -1,0 +1,214 @@
+.myshop{
+  > .top-title {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    // background: ;
+    color: #e0bf63;
+    line-height: 40px;
+    z-index: 99;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #fff;
+    }
+    .search-box {
+      position: relative;
+      width: 65%;
+      margin: auto;
+      vertical-align: middle;
+      > .icon {
+        position: absolute;
+        top: 3px;
+        right: -1px;
+        color: #fff;
+        z-index: 999;
+        padding: 0.7rem 1rem;
+      }
+      > input {
+        width: calc(100% - 3rem);
+        padding-right: 3rem;
+        height: 24px;
+        line-height: 24px;
+        background: rgba(0,0,0,0.2);
+        font-size: .8rem;
+        text-indent: 12px;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        outline: none;
+      }
+    }
+    .headertop {
+      position: absolute;
+      width: 3rem;
+      top: 0;
+      right: 3px;
+      color: #eee;
+      line-height: 40px;
+      padding-top: 5px;
+      > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+      }
+    }
+  }
+  
+  .myshopcss{
+    position: relative;
+    .logo{
+      display: block;
+      width: 100%;
+      height: 200px;
+    }
+    .noneshoplogo{
+      width: 100%;
+      height: 200px;
+      background: #006cb7;
+    }
+    .shopdata{
+      position: relative;
+      height: 53px;
+      
+      .shopname{
+        position: absolute;
+        left: 88px;
+        top: -23px;
+        color: #fff;
+        font-size: 0.9rem;
+      }
+      .tablist{
+        display: flex;
+        padding-top: 8px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+        li{
+          flex:1;
+          text-align: center;
+          .tabtxt{
+            font-size: 0.8rem;
+            color: #999;
+          }
+        }
+        .flex1-5{
+          flex:1.5;
+          position: relative;
+          img{
+            position: absolute;
+            width: 70%;
+            left: 5px;
+            top: -34px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.goodsdataheight{
+  height: 430px;
+  overflow: hidden;
+}
+
+
+.qcode-box {
+    position: absolute;
+    top: 2rem;
+    left: 10%;
+    width: 80%;
+    > #img-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      background-color: #fff;
+      width: 100%;
+      > .img {
+        width: 100%;
+        display: block;
+      }
+      > .touxiang {
+        position: absolute;
+        top: 10px;
+        left: 70px;
+        z-index: 3;
+        width: 40px;
+      }
+      > #erweima {
+        position: absolute;
+    bottom: 100px;
+    left: 50%;
+    margin-left: -47px;
+    z-index: 4;
+    width: 85px;
+    padding: 5px;
+    background-color: #fff;
+      }
+      > #erweima-big {
+        padding: 1rem;
+        background-color: #fff;
+        width: calc(100% - 2rem);
+        text-align: center;
+        > img {
+          margin: 0 auto;
+        }
+      }
+      > .newImg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      > span {
+        display: block;
+        text-align: center;
+        margin: 1rem 2rem;
+        padding: 1rem 0;
+        border-radius: 1rem;
+        color: #f08519;
+        border: 1px solid #f08519;
+      }
+      > .info {
+        text-align: center;
+        font-size: .8rem;
+        color: #666;
+        > p {
+          margin-bottom: .3rem;
+        }
+        > .flex-box {
+          display: flex;
+          > .page {
+            flex: 1;
+            > p:first-child {
+              color: #f08519;
+              line-height: 20px;
+            }
+            > span,a {
+              display: block;
+              text-align: center;
+              margin: 1rem;
+              padding: .3rem 0;
+              border-radius: 1rem;
+              color: #f08519;
+              border: 1px solid #f08519;
+            }
+          }
+        }
+      }
+    }
+    > .bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,.6);
+      z-index: 1;
+    }
+  }

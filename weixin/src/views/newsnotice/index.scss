@@ -1,0 +1,47 @@
+.notice-list {
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  
+  .noticecss{
+    li{
+      padding: 0.5rem 1rem;
+      border-bottom: 1px solid #ccc;
+      position: relative;
+      height: 4rem;
+      .itemtitle{
+        font-size: 1rem;
+        color: #000;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+      }
+      .itemday{
+        font-size: 0.8rem;
+        color: #999;
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+      }
+      .itemimg{
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+}

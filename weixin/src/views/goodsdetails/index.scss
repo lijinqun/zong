@@ -1,0 +1,226 @@
+.goods-info {
+  background-color: #ddd;
+  margin-bottom: 50px;
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  > .goods-banner {
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  > .simple-info {
+    padding: .5rem 0.5rem;
+    border-bottom: 8px solid #f0f0f0;
+    line-height: 26px;
+    background-color: #fff;
+    > .title{
+      font-size: 14px;
+      font-weight: 600;
+    }
+    >.num{
+      margin-top: 0.3rem;
+    }
+     .price {
+      color: #f00;
+      font-size: 20px;
+      // font-weight: 600;
+    }
+    .marleft{
+      margin-left: 1rem;
+      color: #999;
+      font-size: 12px;
+    }
+    .discountcss{
+      text-decoration:line-through;
+      color: #999;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    > .countdown{
+      height: 35px;
+      > div{
+        min-width: 100px;
+        float: right;
+        > span{
+          display: inline-block;
+          line-height: 25px;
+          height: 25px;
+          background: #BA1D9D;
+          border:1px solid #BA1D9D;
+          border-radius: 5px;
+          padding: 0 3px;
+          color: #ffffff;
+          font-size:12px;
+          margin-right: 3px;
+        }
+        > i{
+          font-size:14px;
+          display: inline-block;
+          height: 25px;
+          line-height: 25px;
+          font-style: normal ;
+          font-weight: 600;
+
+        }
+      }
+    }
+  }
+  > .more-info {
+    background-color: #fff;
+    > p {
+      padding: 0 1rem;
+      line-height: 40px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    > .content {
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  .single-info {
+    > .top-info {
+      padding: 0.5rem;
+      border-bottom: 1px solid #ddd;
+      position: relative;
+      height: 70px;
+      > .topimg {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: -20px;
+        left: 0.5rem;
+      }
+      > .right-info {
+        margin:0 0 0 100px;
+        max-width: 240px;
+        p{
+          width: 100%;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+        }
+        > p.clickspec{
+          font-size: 12px;
+          color: #666;
+          margin-top: 0.5rem;
+        }
+        > p.redtxt {
+          color: #f00;
+          font-size: 1.2rem;
+        }
+        > p + p {
+          font-size: .8rem;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .closebtn{
+        position: absolute;
+        right: 1rem;
+        top:5px;
+      }
+    }
+    > .content {
+      padding: 0 .5rem 1rem .5rem;
+      border-bottom: 1px solid #ddd;
+      max-height: 200px;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      > .title {
+        line-height: 35px;
+        font-size: 14px;
+        color: #666;
+      }
+      > ul {
+        padding: 5px 0;
+        > li {
+          display: inline-block;
+          padding: 0 12.5px;
+          margin-right: 15px;
+          color: #555;
+          border: 1px solid #999999;
+          margin-bottom: .5rem;
+          font-size: 12px;
+          // min-width: 20%;
+          text-align: center;
+          height: 28px;
+          line-height: 28px;
+        }
+        > .active {
+          // color: #e0bf63;
+          border: 1px solid #0000;
+          color: #fff;
+          background: #1c1b20;
+        }
+      }
+    }
+
+    > .qty-info {
+      display: flex;
+      padding: 1rem .5rem;
+      > p {
+        flex: 1;
+        line-height: 35px;
+        color: #666;
+        font-size: 14px;
+      }
+    }
+    .fooderbtn{
+      padding-top: 1rem;
+      padding-bottom: 0.5rem;
+      border-top: 1px solid #ddd;
+    }
+    .addbtn{
+      background: #ddbe61;
+      // width: 90%;
+      width: 100%;
+      margin: auto;
+      display: block;
+    }
+  }
+
+}
+
+.addbtncolor{
+  background: #d9ba4f;
+}
+
+.clickspecdata{
+  position: relative;
+  height: 40px;
+  background: #fff;
+  line-height: 40px;
+  padding: 0 0.5rem;
+  border-bottom: 8px solid #f0f0f0;
+  .nowclickcss{
+    font-size: 13px;
+    color: #999;
+  }
+  .colorback{
+    color: #000;
+  }
+  .rightclick{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}

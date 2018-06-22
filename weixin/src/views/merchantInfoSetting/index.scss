@@ -1,0 +1,35 @@
+.popupheader{
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #f0f0f0;
+  p{
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 20px;
+    color: #ff0000;
+  }
+  .rightbtn{
+    float: right;
+    color: #e0bf63;
+  }
+}
+.choosebox{
+  p{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 1rem;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    span{
+      display: block;
+    }
+    >.headtxt{
+      flex:2;
+    }
+    >.datatxt{
+      flex:6;
+    }
+  }
+}

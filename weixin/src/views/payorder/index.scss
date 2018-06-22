@@ -1,0 +1,292 @@
+.goods-info {
+  background-color: #fff;
+  margin-bottom: 50px;
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #d9ba4f;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #d9ba4f;
+    }
+  }
+  > .goods-banner {
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  > .simple-info {
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    line-height: 30px;
+    background-color: #fff;
+    > .price {
+      color: #f00;
+    }
+  }
+  > .more-info {
+    background-color: #fff;
+    > p {
+      padding: 0 1rem;
+      line-height: 40px;
+      border-bottom: 1px solid #ddd;
+    }
+    > .content {
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  .single-info {
+    > .top-info {
+      padding: 0.6rem 0;
+      display: flex;
+      border-bottom: 1px solid #ddd;
+      height: 30px;
+      text-align: center;
+      >.closebtn{
+        margin-right: 0.5rem;
+        margin-top: 0.3rem;
+      }
+      > .top-info-header{
+        margin: auto;
+        font-size: 17px;
+      }
+      > img {
+        width: 60px;
+        height: 60px;
+      }
+      > .right-info {
+        flex: 1;
+        margin-left: 1rem;
+        > p:first-child {
+          color: #f00;
+          font-size: 1.2rem;
+        }
+        > p + p {
+          font-size: .8rem;
+        }
+      }
+    }
+    > .content {
+      padding: 0 .5rem;
+      border: none;
+      max-height: 270px;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      > .title {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+      }
+      > .paymode{
+        margin-left: 3rem;
+      }
+    }
+    >.paybtn{
+      width: 80%;
+      font-size: 1.2rem;
+      color: #fff;
+      background: #e0bf62;
+      margin: auto;
+      text-align: center;
+      padding: 0.7rem 0;
+      border-radius: 1.5rem;
+      margin-top: 1.8rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.goodsul{
+    background: #f0f0f0;
+    -webkit-overflow-scrolling: touch;
+    .goodsdatacss{
+      position: relative;
+      background: #fff;
+      border-top: 8px solid #f0f0f0;
+      
+    }
+
+    .posrelative{
+      position: relative;
+      background: #fff;
+      border-top: 1px solid #f0f0f0;
+      padding: 8px 0 8px 1rem;
+      min-height: 90px;
+      background: #F2F2F2;
+      margin: 2px 0;
+      > div{
+        background: #F2F2F2;
+      }
+    }
+    .footerstepper{
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      color: #999;
+    }
+    .goodswidth{
+      width: 95%;
+      background: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      background: #F2F2F2;
+      
+    }
+    .goodsimgcss{
+      width: 80%;
+      // height: 65px;
+    }
+    .goodstitle{
+      font-size: 12px;
+      padding-top: 0.3rem;
+      display: -webkit-box;
+      /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      /* autoprefixer: on */
+      -webkit-line-clamp:2;
+      overflow: hidden;
+    }
+    .goodsspec{
+      font-size: 12px;
+      padding-top: 0.1rem;
+      color: #999;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+    }
+    .goodsprice{
+      position: absolute;
+      bottom: 10px;
+      left: 125px;
+      font-size: 1rem;
+      color: #ff0000;
+    }
+    .merchantname{
+      line-height: 35px;
+      // color: #666;
+      padding-left: 1rem;
+    }
+  }
+
+.message{
+  padding: 0 10px 30px 10px;
+  > p{
+    height: 40px;
+    > input{
+      outline: none;
+      border: 0;
+      height: 40px;
+      line-height: 40px;
+      padding-left: 14px;
+      font-size: 14px;
+    }
+    > span{
+      display: inline-block;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+    }
+  }
+  > .message_courier{
+    > span{
+      display: inline-block;
+      width: 50%;
+      text-align: right;
+      line-height: 40px;
+      height: 40px;
+    }
+    > span:first-child{
+      text-align: left;
+      line-height: 40px;
+      height: 40px;
+    }
+  }
+}
+  .paytxt{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ff0000;
+  }
+  .passwordbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+  }
+
+// 优惠券
+// .container ::-webkit-scrollbar {display: none;}
+.coupons{
+  padding: 0 10px 5px 10px;
+  // max-height: 335px;
+  // overflow-y: scroll;
+  // overflow-x: hidden;
+  // /*解决ios上滑动不流畅*/
+  // -webkit-overflow-scrolling: touch;
+  > p{
+    line-height: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+  }
+  > ul{
+    max-height: 368px;
+    min-width: 225px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*解决ios上滑动不流畅*/
+    -webkit-overflow-scrolling: touch;
+    > li{
+      height: 65px;
+      font-size: 14px;
+      padding-bottom: 10px;
+      > .vouchers_left{
+        width: 75%;
+        float: left;
+        height: 65px;
+        background: url(../../assets/517.png) no-repeat;
+        background-size:100% 100%; 
+        > span{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+          }
+      }
+      > .vouchers_right{
+        width: 25%;
+        float: left;
+        height: 65px;
+        background: url(../../assets/518.png) no-repeat;
+        background-size:100% 100%; 
+        > span{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            > img{
+              max-width: 70%;
+            }
+          }
+      }
+    }
+  }
+}

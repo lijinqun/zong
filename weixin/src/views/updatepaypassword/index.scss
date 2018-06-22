@@ -1,0 +1,107 @@
+.phone {
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  .data{
+    .newstxt{
+      font-size: 16px;
+      color: #666;
+      margin: auto;
+      padding: 2rem 15px;
+      background: #fff;
+      text-indent: 2em;
+    }
+    .inputdata{
+      border-bottom: 1px solid #f0f0f0; 
+    }
+    .savebtn{
+      background: #4b0;
+      color: #fff;
+      width: calc(100% - 20px);
+      height: 45px;
+      line-height: 45px;
+      margin: 50px 10px 0;
+      text-align: center;
+      border-radius: 5px;
+    }
+  }
+
+}
+
+.paytxt{
+  text-align: center;
+  margin-top: 15px;
+  color: #666;
+}
+.pwbox-top{
+  margin-top: 15%;
+  > .prompt{
+    text-align: center;
+    display:block;
+    line-height: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #999;
+  }
+}
+.pwbox{
+  p{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 1rem;
+    font-size: 14px;
+    color: #333;
+    // border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    margin-top: 10px;
+    span{
+      display: block;
+    }
+    >.headtxt{
+      flex:1.5;
+      color: #000;
+      font-size:13px;
+      font-weight: 500;
+      // margin-left: 10%;
+    }
+    >.datatxt{
+      flex:6;
+      // margin-right: 10%;
+      border: 1px solid #ccc;
+      outline:none;
+      padding-left: 10px;
+      // user-modify: read-write-plaintext-only;
+      // height: 40px;
+      // line-height: 40px;
+    }
+  }
+}
+
+.btn {
+  display: block;
+  // margin: 4rem 1rem 2rem 3rem;
+  padding:0 1rem;
+  height: 45px;
+  line-height: 45px;
+  // border-radius: 1.5rem;
+  background-color: #e0bf63;
+  color: #fff;
+  text-align: center;
+  width: calc(100% - 60px);
+  margin: 5rem auto;
+}
+
+

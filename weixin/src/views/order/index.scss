@@ -1,0 +1,226 @@
+
+.listOrder{
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    .list{
+    width: 100%;
+    padding-top: 15px;
+    > ul{
+        display: flex;
+        flex-flow: row wrap;
+        width: 85%;
+        margin: 0 auto;
+        > li{
+            flex: 33.33% 0 0;
+            margin: 10px 0;
+            > a{
+                display: inline-block;
+                width: 100%;
+                > .prompt{
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    > i{
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        line-height: 20px;
+                        border-radius: 50%;
+                        background: #E62129;
+                        color: #ffffff;
+                        text-align: center; 
+                        font-style: normal;
+                        font-size: 10px;
+                        position: absolute;
+                        top: -7px;
+                        left: 50%;
+                    }
+                }
+                > p{
+                    text-align: center;
+                    color: #3f3937;
+                    font-size: 14px;
+                    > img{
+                        max-width: 30%;
+                    }
+                }
+            }
+        }
+    } 
+}
+}
+.theOrder{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    > h5{
+        background-color: #EEEEEF;
+        color: #939394;
+        height: 20px;
+        line-height: 20px;
+        padding-left: 10px;
+        font-size:12px;
+        font-weight: 400;
+        margin: 0;
+    }
+    > .listof{
+        padding: 0 10px;
+        > ul{
+            width: 100%;
+            > li{
+                display: flex;
+                height: 100px;
+                border-bottom: 1px solid #f2f2f3;
+                padding-top: 20px;
+                > .describe{
+                    flex: 8;
+                    margin-left: 10px;
+                    > .title{
+                        color: #342d2c;
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                    }
+                    > p{
+                        color: #909091;
+                        font-size: 0.8rem;
+                        line-height: 25px;
+                    }
+                }
+                > .img{
+                    // flex:  50px 0 0;
+                    // height: 50px;
+                    width: 50px;
+                    height: 50px;
+                    > img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit:cover;
+                    }
+                }
+                > .state{
+                    flex: 2;
+                    > p{
+                        color: #e82f36;
+                        font-size: 14px;
+                        line-height: 25px;
+                        text-align: right;
+                        > a{
+                            display: inline-block;
+                            width: 120%;
+                            font-size: 13px;
+                            height: 25px;
+                            width: 65px;
+                            text-align: center;
+                            border: 1px solid #debc5b;
+                            color: #debc5b;
+                            background: #ffffff;
+                            position: relative;
+                            top: 1rem;
+
+                        }
+                    }
+                }
+            }
+        }
+        > h1{
+            text-align: center;
+            line-height: 45px;
+            font-size: 15px;
+            color: #E0BF64;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+// 我的购物车
+.shopping{
+    margin-top:12px; 
+    background: #ffffff;
+    padding-bottom: 75px;
+    > .show{
+        // height:200px;
+        text-align: center;
+        > img{
+            max-width:100%;
+        }
+    }
+    > .shoppingList{
+        > ul{
+            padding: 0 10px;
+            > li{
+                // border-bottom:1px solid #eeeeef;
+                // padding: 12px 0;
+                > h1{
+                    font-size: 16px;
+                    line-height: 35px;
+                    color: #666;
+                    padding-left: 8px;
+                    margin: 0;
+                    border-bottom:1px solid #eeeeef;
+                    font-weight: 400;
+                }
+                > .details{
+                    display: flex;
+                    border-bottom:1px solid #eeeeef;
+                    padding: 0.5rem 0;
+                    > .img{
+                        height: 100px;
+                        width: 100px;
+                        > img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit:cover;
+                        }
+                        > img[lazy=loaded]{
+                            animation-name: fadein;
+                            animation-duration: .7s;
+                            animation-iteration-count: 1;
+                            animation-fill-mode: both;
+                            animation-direction: normal;
+                            animation-timing-function: ease-out;
+                            @keyframes fadein {
+                            0% {
+                                opacity: 0;
+                            }
+                            100% {
+                                opacity: 1;
+                            }
+                            }
+                        }
+                    }
+                    > .content{
+                        flex: 3;
+                        margin-left: 22px;
+                        > .title{
+                            color: #463F3E;
+                            font-size: 0.8rem;
+                            font-weight: 600;
+                            line-height: 20px;
+                            word-break:break-all;
+                        }
+                        > .color{
+                            color: #99999A;
+                            font-size: 0.8rem;
+                            line-height: 25px;
+                        }
+                        > .price{
+                            color: #E62129;
+                            font-size: 0.9rem;
+                            font-weight: 600;
+                            line-height: 30px;
+                        }
+                    }
+                }    
+            }
+        }
+        > h1{
+            text-align: center;
+            line-height: 45px;
+            font-size: 15px;
+            color: #E0BF64;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

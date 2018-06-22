@@ -1,0 +1,18 @@
+.index-bottom-nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    >.tabbarbgcss{
+      background: #ffffff;
+      color:#d9ba4f;
+      bottom:-1px;
+      >.tabbartxtbgcss{
+        color:#d9ba4f;
+      }
+      >.van-tabbar-item--active {
+          color: #666;
+      }
+    }
+  }

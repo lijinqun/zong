@@ -1,0 +1,97 @@
+.goods-info {
+  background-color: #fff;
+  margin-bottom: 50px;
+  
+  
+}
+
+.top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  
+  .savebtn{
+    background: #4b0;
+    color: #fff;
+    width: calc(100% - 20px);
+    height: 45px;
+    line-height: 45px;
+    margin: 20px 10px 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .delbtn{
+    background: #ff0000;
+    color: #fff;
+    width: calc(100% - 20px);
+    height: 45px;
+    line-height: 45px;
+    margin: 20px 10px 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+
+  .gocartcss{
+    width: calc(100% - 58px);
+    position: absolute;
+    bottom: 3rem;
+    padding: 0.5rem 15px 0.5rem 43px;
+    border-top: 1px solid #f0f0f0;
+  }
+  .lefticon{
+    position: absolute;
+    width: 0.3rem;
+    height: 0.5rem;
+    color: #999;
+    left: 18px;
+    top: 10px;
+  }
+  .righticon{
+    position: absolute;
+    width: 0.3rem;
+    height: 0.5rem;
+    color: #999;
+    right: 23px;
+
+  }
+
+
+  .van-address-list__add{
+    display: none!important;
+  }
+
+
+  .footerbtn{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background: #999;
+    height: 50px;
+    p{
+      flex:1;
+      line-height: 50px;
+      text-align: center;
+      color: #fff;
+    }
+    .goaddbtncss{
+      background: #f44;
+    }
+    .gocartbtncss{
+      background: #ddbe61;
+    }
+  }

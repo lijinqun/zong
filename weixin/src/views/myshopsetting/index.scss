@@ -1,0 +1,108 @@
+.myshopsetting {
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  
+  .settingcss{
+    
+    .datacss{
+      width: calc(100% - 2rem);
+      height: 2.6rem;
+      line-height: 2.6rem;
+      margin: auto;
+      border-bottom: 1px solid #ccc;
+      span{
+        display: inline-block;
+        width: 5rem;
+        color: #999;
+        vertical-align: middle;
+      }
+      input{
+        width: calc(100% - 7rem);
+        border: none;
+        outline: none;
+        background: transparent;
+      }
+    }
+    .bigimg{
+      height: 75px;
+      padding-top: 5px;
+      .box {
+          display: inline-block;
+          position: relative;
+          width: 70px;
+          height: calc(70px - 4px);
+          border: 2px solid #ddd;
+          vertical-align: middle;
+        }
+      .box::before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 15px;
+          left: calc(50% - 2px);
+          height: 35px;
+          border-left: 4px solid #ddd;
+        }
+      .box::after {
+          content: '';
+          display: block;
+          position: absolute;
+          left: calc(50% - 20px);
+          top: calc(50% - 2px);
+          width: 40px;
+          border-top: 4px solid #ddd;
+        }
+      .clickimg{
+        vertical-align: middle;
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+      }
+      .clickimg2{
+        vertical-align: middle;
+        width: 131px;
+        height: 70px;
+        display: inline-block;
+      }
+    }
+    .textareacss{
+      width: calc(100% - 2rem);
+      margin: auto;
+      padding-top: 0.8rem;
+      padding-bottom: 0.5rem;
+      textarea{
+        width: calc(100% - 1rem);
+        padding: 0.5rem;
+        border-radius: 6px;
+        height: 7rem;
+      }
+    }
+    .settingbtn{
+      width: calc(100% - 2rem);
+      margin: auto;
+      height: 2.6rem;
+      line-height: 2.6rem;
+      background: #ff0000;
+      color: #fff;
+      border-radius: 6px;
+      text-align: center;
+      margin-top: 2rem;
+    }
+  }
+}
+
+

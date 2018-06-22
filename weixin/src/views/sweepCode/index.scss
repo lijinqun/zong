@@ -1,0 +1,188 @@
+.sweep-code {
+  padding-bottom: 2rem;
+  background-color: #e0bf63;
+  color: #333;
+  > .content-box {
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 6px;
+    > .top {
+      line-height: 3rem;
+      padding: 0 1rem;
+      background-color: #ddd;
+      color: #e0bf63;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      > img {
+        float: left;
+        margin: .5rem 1rem 0 0;
+        height: 2rem;
+      }
+      > span:last-child {
+        float: right;
+        padding-left: 1rem;
+      }
+    }
+    > .content {
+      padding: 0 1rem;
+      text-align: center;
+      > .name {
+        line-height: 35px;
+        border-bottom: 1px solid #ddd;
+      }
+      > .warning {
+        color: #f00;
+        font-size: .8rem;
+      }
+      > .code {
+        position: relative;
+        width: 80%;
+        margin: 1rem auto;
+        > .user-img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 40px;
+          margin: -20px 0 0 -20px;
+        }
+      }
+      > .btn-box {
+        display: flex;
+        margin: 1rem 0;
+        > a {
+          flex: 1;
+          line-height: 30px;
+        }
+      }
+      > .bottom {
+        line-height: 35px;
+        padding: 1rem;
+        border-top: 1px solid #ddd;
+        text-align: left;
+        > a {
+          color: inherit;
+          float: right;
+        }
+      }
+    }
+  }
+  > p {
+    text-align: center;
+  }
+}
+
+.top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #000000;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+
+
+
+  // 二维码
+  .qcode-box {
+    position: absolute;
+    top: 2rem;
+    left: 10%;
+    width: 80%;
+    > #img-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      background-color: #fff;
+      width: 100%;
+      > .img {
+        width: 100%;
+        display: block;
+      }
+      >.shopnamecss{
+        position: absolute;
+        top: 64px;
+        width: 100%;
+        z-index: 3;
+        text-align: center;
+        color: #fff;
+      }
+      > .touxiang {
+        position: absolute;
+        top: 154px;
+        left: 130px;
+        z-index: 3;
+        width: 40px;
+      }
+      > #erweima-big {
+        position: absolute;
+        top: 100px;
+        left: 75px;
+        background-color: #fff;
+        width: 150px;
+        text-align: center;
+        > img {
+          margin: 0 auto;
+        }
+      }
+      > .newImg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      > span {
+        display: block;
+        text-align: center;
+        margin: 1rem 2rem;
+        padding: 1rem 0;
+        border-radius: 1rem;
+        color: #f08519;
+        border: 1px solid #f08519;
+      }
+      > .info {
+        text-align: center;
+        font-size: .8rem;
+        color: #666;
+        > p {
+          margin-bottom: .3rem;
+        }
+        > .flex-box {
+          display: flex;
+          > .page {
+            flex: 1;
+            > p:first-child {
+              color: #f08519;
+              line-height: 20px;
+            }
+            > span,a {
+              display: block;
+              text-align: center;
+              margin: 1rem;
+              padding: .3rem 0;
+              border-radius: 1rem;
+              color: #f08519;
+              border: 1px solid #f08519;
+            }
+          }
+        }
+      }
+    }
+    > .bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,.6);
+      z-index: 1;
+    }
+  }

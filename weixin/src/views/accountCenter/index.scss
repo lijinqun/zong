@@ -1,0 +1,90 @@
+.account-center {
+  background-color: #ddd;
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  > .account-box {
+    padding: 1rem 0;
+    display: flex;
+    background-color: #5f5d5e;
+    > .page {
+      flex: 1;
+      text-align: center;
+      color: #fff;
+      >.balancenumcss{
+        font-size: 15px;
+      }
+      > .img {
+        margin: 0 auto;
+        width: 33%;
+        height: 60px;
+        line-height: 60px;
+        > img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  > .other-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    background-color: #fff;
+    > .page {
+      padding: 1rem 0;
+      width: 33%;
+      text-align: center;
+      font-size: .8rem;
+      color: #333;
+      > .img {
+        margin: 0 auto;
+        width: 30px;
+        height: 50px;
+        > img {
+          width: 100%;
+        }
+      }
+    }
+    > .page:not(:nth-child(3n+1)) {
+      border-left: 1px solid #ddd;
+    }
+    > .page:nth-child(n+4) {
+      border-top: 1px solid #ddd;
+    }
+  }
+  > .integral-number {
+    margin-bottom: .5rem;
+    background-color: #fff;
+    > .number-box {
+      display: flex;
+      border-bottom: 1px solid #ddd;
+      > .page {
+        flex:1;
+        text-align: center;
+        padding: 0.5rem 0;
+        > p:first-child {
+          color: #e0bf63;
+        }
+        > p:last-child {
+          font-size: .8rem;
+        }
+      }
+      > .page + .page {
+        border-left: 1px solid #ddd;
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+.sign {
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  > .content {
+    .signheight{
+      height: 130px;
+      text-align: center;
+      color: #e0bf63;
+      background: #332c2b;
+      position: relative;
+      .signnum{
+        font-size: 26px;
+      }
+      .signsmalltxt{
+        font-size: 12px;
+      }
+    }
+    .rightborder{
+      border-right: 1px solid #999;
+    }
+    .signlineheight{  
+      line-height: 130px;
+    }
+    .contentright{
+      padding-top: 35px;
+      .contentimg{
+        font-size: 20px;
+      }
+      .contentrighttxt{
+        width: 120px;
+        margin: auto;
+        font-size: 14px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: 1px solid #e0bf63;
+      }
+    }
+    .activebtn{
+      color: #999;
+      .contentrighttxt{
+        border-color: #999;
+      }
+    }
+  }
+}
+
+.lately{
+  background: #ddd;
+  height: 26px;
+  line-height: 26px;
+  padding-left: 0.5rem;
+  color: #666;
+}
+
+.recordul{
+        padding-bottom: 2rem;
+        > li {
+            border-bottom: 1px solid #ddd;
+            padding: .5rem .2rem;
+            color: #333;
+            .libox {
+                line-height: 30px;
+                font-size: .8rem;
+                padding: 0 0.5rem;
+                >.txtleft{
+                  text-align: left;
+                  color: #777;
+                  display: inline-block;
+                  line-height: 28px;
+                  img{
+                    width: 23px;
+                    height: 23px;
+                    vertical-align: middle;
+                    border-radius: 50%;
+                  }
+                  span{
+                    vertical-align: middle;
+                    padding-left: 5px;
+                  }
+                  p{
+                    display: inline-block;
+                  }
+                }
+                >.txtright{
+                  text-align: right;
+                  float: right;
+                  color: #f44;
+                  display: inline-block;
+                  > .time {
+                        font-size: .8rem;
+                        color: #999;
+                    }
+                }
+              }
+        }
+    }
+.hidetab{
+  height: 500px;
+  overflow: hidden;
+}
+.overheight{
+  overflow: auto;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nonelist{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.ruledata{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 12px;
+  color: #29bcff;
+}

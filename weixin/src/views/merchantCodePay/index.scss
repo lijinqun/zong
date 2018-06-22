@@ -1,0 +1,169 @@
+.merchant-code-pay {
+  padding-bottom: 2rem;
+  >.top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    >.back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  >img {
+    width: 100%;
+    display: block;
+  }
+  >p {
+    line-height: 30px;
+    padding: 0 .5rem;
+    >span {
+      float: right;
+      background-color: #00a0ff;
+      color: #fff;
+      border-radius: 4px;
+    }
+  }
+  >.topline {
+    border-top: 1px solid #ddd;
+  }
+  >.pay-page {
+    margin: 1rem auto;
+    width: 80%;
+    >input {
+      margin-bottom: 1rem;
+      border: 1px solid #e0bf63;
+      border-radius: .5rem;
+      padding: .4rem 0;
+      width: 100%;
+      text-indent: 1rem;
+      font-size: .9rem;
+    }
+    >.btn {
+      display: block;
+      margin: 3rem auto 2rem;
+      width: 60%;
+      text-align: center;
+      padding: .6rem 0;
+      background-color: #e0bf63;
+      color: #fff;
+      border: none;
+      border-radius: 2rem;
+    }
+    >.warning {
+      display: block;
+      text-align: center;
+      padding: .5rem 1rem;
+      margin: auto;
+      margin-bottom: 1rem;
+      color: #f00;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+}
+
+.right-pay {
+  position: absolute;
+  top: 3rem;
+  left: 10%;
+  width: 80%;
+  z-index: 2;
+  >.box {
+    padding: 1rem;
+    background-color: #fff;
+    >img {
+      display: block;
+      margin: 0 auto 1rem auto;
+      width: 45%;
+    }
+    >p {
+      padding: 0 1rem;
+      font-size: .8rem;
+      color: #333;
+      text-align: center;
+    }
+    >.warning {
+      padding: .5rem 1rem;
+      margin-bottom: 1rem;
+      color: #f00;
+      border-bottom: 1px solid #ddd;
+    }
+    >.btn-box {
+      display: flex;
+      margin-top: 1rem;
+      >span {
+        flex: 1;
+        text-align: center;
+        padding: .5rem 0;
+        margin: 0 .8rem;
+        color: green;
+        border: 1px solid green;
+        border-radius: .3rem;
+      }
+    }
+  }
+}
+
+.right-pay::after {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  display: block;
+  content: '';
+  z-index: -1;
+}
+
+.success {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  >.top {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    color: green;
+  }
+  >p,
+  .info {
+    margin-top: 1rem;
+    >span {
+      color: #ccc;
+    }
+    padding: 0 3rem;
+  }
+  >.info {
+    font-size: 1.4rem;
+  }
+  >span {
+    display: block;
+    padding: .8rem 1rem;
+    margin: 2rem 20%;
+    text-align: center;
+    color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+  }
+}
+
+.passwordbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}

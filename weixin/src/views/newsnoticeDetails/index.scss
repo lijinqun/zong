@@ -1,0 +1,66 @@
+.notice-list {
+  > .top-title {
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #332c2b;
+    color: #e0bf63;
+    line-height: 40px;
+    > .back-off {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 40px;
+      color: #e0bf63;
+    }
+  }
+  
+  .noticecss{
+    padding: 0.5rem 1rem;
+    padding-bottom: 6rem;
+    position: relative;
+    .itemtitle{
+      font-size: 1.3rem;
+      color: #000;
+      // overflow: hidden;
+      // text-overflow:ellipsis;
+      // white-space: nowrap;
+      // text-align: center;
+      // line-height: 3rem;
+      margin-bottom: 1rem;
+    }
+    .itemtitle2{
+      font-size: 1.3rem;
+      color: #000;
+      // overflow: hidden;
+      // text-overflow:ellipsis;
+      // white-space: nowrap;
+      text-align: center;
+      // line-height: 3rem;
+      margin-bottom: 1rem;
+    }
+    .itemauthor{
+      font-size: 0.8rem;
+      color: #999;
+      position: absolute;
+      top: 3.8rem;
+      right: 1.3rem;
+    }
+    .itemday{
+      font-size: 0.8rem;
+      color: #999;
+      position: absolute;
+      bottom: 2rem;
+      right: 1rem;
+    }
+    .itemhtmlcss{
+      display: block;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+
